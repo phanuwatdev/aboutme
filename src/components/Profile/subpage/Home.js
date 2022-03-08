@@ -25,11 +25,13 @@ export default function Home() {
 
                   <div className="content-social">
                     <div className="content-icon">
-                      <a href="https://www.facebook.com/phanuwat1996/" target="_blank" rel="noopener noreferrer" className="href-link-style">
+                      {/* <a href="https://www.facebook.com/phanuwat1996/" target="_blank" rel="noopener noreferrer" className="href-link-style"> */}
+                      <a href="https://www.facebook.com/#/" target="_blank" rel="noopener noreferrer" className="href-link-style">
                         <Icon size='large' className="social-icon" name='facebook f'/>
                       </a>
                     </div>
-                    <a href="https://www.instagram.com/johnniieps" target="_blank" rel="noopener noreferrer" className="href-link-style">
+                    {/* <a href="https://www.instagram.com/johnniieps" target="_blank" rel="noopener noreferrer" className="href-link-style"> */}
+                    <a href="https://www.instagram.com/#/" target="_blank" rel="noopener noreferrer" className="href-link-style">
                       <div className="content-icon">
                         <Icon size='large' className="social-icon" name='instagram'/>
                       </div>

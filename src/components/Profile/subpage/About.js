@@ -243,6 +243,18 @@ export default function About() {
                                   trigger={<Icon name="css3 alternate" size="big" className="md-icon"/>}
                                 />
                               </div>
+
+                              <div className="md-icon-box">
+                                {/* <Icon name="css3 alternate" size="big" className="md-icon"/> */}
+                                <Popup
+                                  position='top center'
+                                  size='mini'
+                                  inverted
+                                  offset={[0, 10]}
+                                  header="SASS & SCSS"
+                                  trigger={<Icon name="sass" size="big" className="md-icon"/>}
+                                />
+                              </div>
                             </div>
                           </div>
 
