@@ -17,8 +17,8 @@ export default function App() {
     <div>
       <Switch>
         <Route exact path="/" ><Profile/></Route>
-        <Route path="/MAQEStyling" ><MAQEStyling/></Route>
-        <Route path="/palindromic" ><Palindromic/></Route>
+        <Route exact path="/MAQEStyling"><MAQEStyling/></Route>
+        <Route exact path="/palindromic"><Palindromic/></Route>
         {/* <Route><Timeline/></Route> */}
       </Switch>
     </div>
